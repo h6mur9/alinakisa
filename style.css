@@ -29,7 +29,6 @@ ul, li {
 	margin: 0 auto;
 }
 .header {
-	background: url("header.jpg") no-repeat center top / cover;
 	padding-top: 57px;
 }
 header a {
