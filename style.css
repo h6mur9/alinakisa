@@ -28,6 +28,7 @@ ul, li {
 	margin: 0 auto;
 }
 .header {
+
 	padding-top: 57px;
 }
 header a {
@@ -88,7 +89,51 @@ header a {
 	margin: auto;
 }
 .audio {
-display: block;
+	display: block;
 	margin: auto;
-	
+}
+@media screen and (max-width: 1200px) {
+	h1 {
+		font-size: 56px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container h1 {
+		font-size: 30px;
+	}
+	.menu li a {
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 30px;
+		letter-spacing: 0.1em;
+		}
+	.btn {
+		display: block;
+		text-align: center;
+		letter-spacing: 0.1em;
+		border: 1px solid white;
+		color: white;
+		background-color: black;
+		font-size: 24px;
+		border-radius: 10px;
+		width: 400px;
+		transition: all 0.5s ease;
+		display: block;
+		margin: 0 auto;
+	}
+.lubov {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: auto;
+	}
+	.container {
+		width: 1170px;
+		margin: 0 auto;
+		height: 700px;
+	}
+	.audio {
+		padding-top: 15px;
+	}
 }
