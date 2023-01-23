@@ -6,61 +6,70 @@ body {
 	font-size: 16px;
 	background: url('header.jpg') no-repeat center top / cover;
 }
+
 h1,h2,h3,h4,h5,h6 {
 	padding: 0;
 	margin: 0;
 	text-transform: uppercase;
 }
+
 h1 {
 	padding: 58px;
 	font-size: 18px;
 	letter-spacing: 0.1em;
 	font-family: 'Open Sans', sans-serif;
 }
+
 ul, li {
 	display: block;
 	padding: 0;
 	margin: 0;
 }
+
 .container {
 	width: 1170px;
 /*	позиционирование по центру*/
 	margin: 0 auto;
 }
-.header {
 
+.header {
 	padding-top: 57px;
 }
+
 header a {
 	color: white;
 }
+
 .logo {
 	margin-right: 69px;
 }
+
 .menu {
 	display: flex;
 }
+
 .menu li a {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 14px;
 	letter-spacing: 0.1em;
 }
+
 .menu li {
 	margin-right: 40px;
 }
+
 .tel {
 	font-size: 17px;
 	text-decoration: none;
 	margin-left: auto;
 	letter-spacing: 0.1em;
 }
+
 .nav {
 	display: flex;
 	align-items: center;
 }
-
-
 
 
 .btn {
@@ -79,22 +88,27 @@ header a {
 	margin: auto;
 	margin-top: 10px;
 }
+
 .btn:hover {
 	color: black;
 	background-color: white;
 	cursor: pointer;
 }
+
 .lubov {
 	width: 300px;
 	height: 300px;
 	display: block;
 	margin: auto;
+	border: 3px solid pink;
 }
+
 .audio {
 	display: block;
 	margin: auto;
 	padding: 5px;
 }
+
 @media screen and (max-width: 1200px) {
 	h1 {
 		font-size: 56px;
@@ -131,6 +145,7 @@ header a {
     height: 500px;
     display: block;
     margin: auto;
+	border: 3px solid pink;
 	}
 	.container {
 		width: 1170px;
@@ -141,6 +156,7 @@ header a {
 		display: block;
 		margin: auto;
 		padding: 10px;
+		width: 350px;
 	}
 	.logo {
 		margin-right: 69px;
